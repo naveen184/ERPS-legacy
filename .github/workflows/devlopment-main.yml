@@ -10,6 +10,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v2 
         with:
           token: ${{ secrets.ACTIOn-TOKEN1}}
-          repository: naveen184/demo123
+          repository: naveen184/triggerrepo
           event-type: my-event
           clint-payload: '{"github": ${{ tojson(github)}}}'
