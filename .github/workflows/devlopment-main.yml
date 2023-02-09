@@ -7,7 +7,7 @@ jobs:
     #build container #deploy container
     steps: 
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v2 
         with:
           token: ${{ secrets.ACTIONTOKEN121}}
           repository: naveen184/demo123
