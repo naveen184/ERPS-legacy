@@ -2,8 +2,8 @@
 name: trigger test in another reposiroty
 on: workflow_dispatch
 jobs: 
-  trigger_test:
-    runs_on: ubuntu-latest
+  trigger-test:
+    runs-on: ubuntu-latest
     #build container #deploy container
     steps: 
       - name: Repository Dispatch
