@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets. ACTION-TOKEN1 }}
       - run: echo "Some Main work"
-      - run: echo "Tag ${{ env.tag }}"
+      - run: echo "Tag ${{ env.tag }}" 
 
  
           git tag -a tag-pat/work/${{ env.tag }} -m "${{ env.tag }}"
